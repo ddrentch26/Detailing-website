@@ -20,6 +20,30 @@ const services = [
   },
 ];
 
+const testimonials = [
+  {
+    id: 1,
+    name: "Michael S.",
+    role: "Tesla Model S Owner",
+    quote:
+      "Amazing attention to detail — my car looked brand new. Friendly staff and quick turnaround.",
+  },
+  {
+    id: 2,
+    name: "Samantha R.",
+    role: "Luxury SUV Owner",
+    quote:
+      "Professional, thorough, and worth every penny. The interior smells fresh and looks spotless.",
+  },
+  {
+    id: 3,
+    name: "Carlos D.",
+    role: "Daily Driver",
+    quote:
+      "Reliable mobile service — they came to my work and my car was transformed in hours.",
+  },
+];
+
 export function Home() {
   return (
     <div>
@@ -64,6 +88,37 @@ export function Home() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h3 className="text-3xl mb-2">Client Testimonials</h3>
+            <p className="text-muted-foreground">What our customers are saying</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {testimonials.map((t) => (
+              <div key={t.id} className="bg-card border border-border rounded-lg p-6">
+                <p className="mb-4">“{t.quote}”</p>
+                <div className="flex items-center gap-3">
+                  <div className="h-10 w-10 rounded-full bg-accent/10 flex items-center justify-center text-accent font-semibold">
+                    {t.name
+                      .split(" ")
+                      .map((n) => n[0])
+                      .slice(0, 2)
+                      .join("")}
+                  </div>
+                  <div>
+                    <div className="font-semibold">{t.name}</div>
+                    <div className="text-sm text-muted-foreground">{t.role}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
