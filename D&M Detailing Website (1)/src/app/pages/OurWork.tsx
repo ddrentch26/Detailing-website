@@ -4,8 +4,8 @@ import { Play } from "lucide-react";
 const galleryItems = [
   {
     id: 1,
-    title: "Luxury Car Detail",
-    image: "https://images.unsplash.com/photo-1660320593205-2994d5dcdc67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBkZXRhaWxpbmd8ZW58MXx8fHwxNzcwNTYxMjg2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    title: "Audi R8",
+    image: encodeURI("/images/r8.jpg") ,
   },
   {
     id: 2,
