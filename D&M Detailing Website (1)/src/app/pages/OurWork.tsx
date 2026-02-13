@@ -5,32 +5,32 @@ const galleryItems = [
   {
     id: 1,
     title: "Audi R8",
-    image: encodeURI("/images/r8.jpg") ,
+    image: "/images/audi-r8.jpeg",
   },
   {
     id: 2,
     title: "Exterior Wash",
-    image: "https://images.unsplash.com/photo-1564597010688-2af5f0fdb41b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjBleHRlcmlvciUyMHdhc2h8ZW58MXx8fHwxNzcwNjcxODQzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/c63.jpeg",
   },
   {
     id: 3,
     title: "Premium Black Car",
-    image: "https://images.unsplash.com/photo-1770364276122-f1e2add1c6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb2xpc2hlZCUyMGJsYWNrJTIwY2FyfGVufDF8fHx8MTc3MDY3MTg0M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/cyber.jpeg",
   },
   {
     id: 4,
     title: "Sports Car Detail",
-    image: "https://images.unsplash.com/photo-1680102185549-9cf0af45c6db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBjYXIlMjBkZXRhaWx8ZW58MXx8fHwxNzcwNTkwMjA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/etron.jpeg",
   },
   {
     id: 5,
     title: "Interior Perfection",
-    image: "https://images.unsplash.com/photo-1682858110563-3f609263d418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMGNhciUyMGludGVyaW9yfGVufDF8fHx8MTc3MDY3MTg0NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/BMWfront.jpeg",
   },
   {
     id: 6,
     title: "Luxury SUV Detail",
-    image: "https://images.unsplash.com/photo-1768024175221-845ba4106e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBzdXYlMjBkZXRhaWxpbmd8ZW58MXx8fHwxNzcwNjk4MjM2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/nav.jpeg",
   },
 ];
 
